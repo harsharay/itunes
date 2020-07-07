@@ -47,7 +47,7 @@ const Main = (props) => {
                 {props.data[0]!=="Error" ?
                     props.data.map((item,index) => 
                         <div className="individual" key={index}>
-                        <Link to={'/'+ item.trackId} target="_blank">
+                        <Link to={'/id/'+ item.trackId} target="_blank">
                             <h1>{item.trackName}</h1>
                         </Link>
                             <h3>{item.collectionName}</h3>

@@ -13,8 +13,8 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <h1 className="title">Itunes Search</h1>
-        <Route exact path="/" component={Main}/>
-        <Route path="/:trackId" component={Individual}/>
+        <Route exact path="/home" component={Main}/>
+        <Route path="/id/:trackId" component={Individual}/>
       </div>
     </BrowserRouter>
   );
