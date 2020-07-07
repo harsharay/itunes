@@ -1,0 +1,33 @@
+.sep-page {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sep-page img {
+    position: absolute;
+    width: 30%;
+    left: 20%;
+    top: 30%;
+    height: 150px;
+    width: 150px;
+}
+
+.content {
+    position: absolute;
+    right: 25%;
+    top: 25%;
+
+}
+
+
+@media all and (max-width:600px) {
+    .sep-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
