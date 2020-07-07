@@ -16,7 +16,7 @@ function App() {
         <h1 className="title">Itunes Search</h1>
         <Switch>
           <Route exact path="/itunes" component={Main}/>
-          <Route path="/id/:trackId" component={Individual}/>
+          <Route path="/itunes/id/:trackId" component={Individual}/>
           <Route path="*" component={NotFoundPage}/>
         </Switch>
       </div>

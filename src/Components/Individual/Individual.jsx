@@ -3,7 +3,7 @@ import React,{ useState,useEffect } from 'react'
 import "./Individual.styles.css"
 
 function Individual(props) {
-
+    
 
     const [data,setData] = useState("")
 
@@ -36,6 +36,7 @@ function Individual(props) {
             
         </div>
     )
+
 }
 
 export default Individual
